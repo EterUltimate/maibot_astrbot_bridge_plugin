@@ -4,8 +4,8 @@
   "version": "2.0.0",
   "description": "将 AstrBot 的工具桥接到 MaiBot，使 MaiBot 的 LLM 可以调用 AstrBot 侧的工具；同时将 MaiBot 平台回复路由到 AstrBot API Server",
   "author": {
-    "name": "AstrBot",
-    "url": "https://github.com/Soulter/AstrBot"
+    "name": "Jason.Joestar",
+    "url": "https://github.com/EterUltimate"
   },
   "license": "GPL-v3.0-or-later",
   "repository_url": "https://github.com/EterUltimate/maibot_astrbot_bridge_plugin",
@@ -33,5 +33,5 @@
       }
     ]
   },
-  "id": "AstrBot.maibot_astrbot_bridge_plugin"
+  "id": "EterUltimate.maibot_astrbot_bridge_plugin"
 }
