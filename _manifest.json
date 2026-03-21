@@ -1,0 +1,37 @@
+{
+  "manifest_version": 1,
+  "name": "AstrBot Bridge",
+  "version": "2.0.0",
+  "description": "将 AstrBot 的工具桥接到 MaiBot，使 MaiBot 的 LLM 可以调用 AstrBot 侧的工具；同时将 MaiBot 平台回复路由到 AstrBot API Server",
+  "author": {
+    "name": "AstrBot",
+    "url": "https://github.com/Soulter/AstrBot"
+  },
+  "license": "GPL-v3.0-or-later",
+  "repository_url": "https://github.com/EterUltimate/maibot_astrbot_bridge_plugin",
+  "host_application": {
+    "min_version": "0.10.0"
+  },
+  "keywords": [
+    "astrbot",
+    "tool",
+    "bridge",
+    "proxy",
+    "platform"
+  ],
+  "categories": [
+    "External Integration"
+  ],
+  "plugin_info": {
+    "is_built_in": false,
+    "plugin_type": "general",
+    "components": [
+      {
+        "type": "event_handler",
+        "name": "astrbot_bridge_init",
+        "description": "ON_START 时注册 WS 自定义消息处理器，接收工具同步和工具调用结果"
+      }
+    ]
+  },
+  "id": "AstrBot.maibot_astrbot_bridge_plugin"
+}
