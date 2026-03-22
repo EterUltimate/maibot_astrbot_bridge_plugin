@@ -1,6 +1,6 @@
 # MaiBot AstrBot Bridge Plugin
 <img width="768" height="1364" alt="1773902773512" src="https://github.com/user-attachments/assets/a40ad462-3759-4ea3-8b2e-cc5857a672b8" />
-<img width="768" height="1364" alt="1773902773512" src="(https://github.com/user-attachments/assets/eac4bd6c-7e75-4ec3-89ce-a5ea481c4603" />
+
 
 将 [AstrBot](https://github.com/Soulter/AstrBot) 的工具桥接到 [MaiBot](https://github.com/MaiM-with-u/MaiBot)，使 MaiBot 的 LLM 可以调用 AstrBot 侧注册的工具。同时将 MaiBot 平台回复路由到 AstrBot API Server。
 
